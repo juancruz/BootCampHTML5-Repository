@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+    <head> 
+    <title>Day 2 Practice Code</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <script src="js/jquery-1.7.1.js"></script>
+        <script src="js/jquery.mobile-1.0.1/jquery.mobile-1.0.1.js"></script>
+        <link rel="stylesheet" href="js/jquery.mobile-1.0.1/jquery.mobile-1.0.1.css"/>
+         
+    </head>
+    <body>
+        <div id="pagehome" data-role="page">
+            <header data-role="header">
+		<h1>Day 2 Practice Page</h1>
+            </header> <!-- /header -->
+            <div data-role ="content">
+                <textarea id ="alias" cols="40" rows="5"></textarea> <br />
+                <input id="button1" type="button" value="Button"><br />
+                <div id="result"></div><br />
+                <ul data-role="listview" data-inset="true" data-filter="true">
+                    <li><a href="#page1" data-transition="slideup">Page1</a></li>
+                    <li><a href="#page2" data-transition="slidedown">Page2</a></li>
+                    <li><a href="#page3" data-transition="fade">Page3</a></li>
+                </ul>
+                <a href="pages/sample1.php" rel="external" data-role="button" data-icon="forward" data-iconpos="right">Go to sample</a>
+                <script type="text/javascript" src="js/Script.js"></script>
+            </div><!-- /content -->
+        </div><!-- /home page -->
+        
+        <div id="page1" data-role="page">
+            <header data-role="header">
+		<h1>Page1</h1>
+            </header> <!-- /header -->
+            <div data-role ="content">
+                <p>
+                jQuery’s mobile strategy can be summarized simply: A unified 
+                user interface system that works seamlessly across all popular 
+                mobile device platforms, built on the rock-solid jQuery and 
+                jQuery UI foundation. 
+                Focused on a feature-rich but lightweight codebase built on
+                progressive enhancement with a flexible, theming system and 
+                ThemeRoller tool. 
+                </p>   
+                <a href="pages/dialog.html" data-role="button" data-rel="dialog" data-transition="pop">Open dialog</a> 
+                <a href="#pagehome" data-role="button" data-icon="home" data-transition="fade">Home</a>
+                
+            </div>
+        </div><!-- /page 1 -->
+        
+        <div id="page2" data-role="page">
+            <header data-role="header">
+		<h1>Page2</h1>
+            </header> <!-- /header -->
+            <div data-role ="content">
+                <p>
+                    The framework includes an Ajax navigation system that brings 
+                    animated page transitions and a core set of UI widgets: 
+                    pages, dialogs, toolbars, listviews, buttons with icons, 
+                    form elements, accordions, collapsibles, and more.
+                </p>
+                <a href="#pagehome" data-role="button" data-icon="home" data-transition="fade">Home</a>
+            </div>
+        </div><!-- /page 2 -->
+        
+         <div id="page3" data-role="page">
+            <header data-role="header">
+		<h1>Page3</h1>
+            </header> <!-- /header -->
+            <div data-role ="content">
+                <p>
+                    The critical difference with our approach is the wide variety of mobile 
+                    platforms we’re targeting with jQuery Mobile so no browser or device is 
+                    left behind. We've also focused on making jQuery Mobile easy to learn 
+                    with a simple, markup-based system to applying behavior and theming. 
+                    For more advanced developers, there is a rich API of global configuration
+                    options, events, and methods to apply scripting, generate dynamic pages, 
+                    and even build native apps with tools like PhoneGap.
+                </p>
+                <a href="pages/dialog.html" data-role="button" data-rel="dialog" data-icon="info" data-transition="fade">Open dialog</a>
+                <a href="#pagehome" data-role="button" data-icon="home" data-transition="fade">Home</a>
+            </div>
+        </div><!-- /page 3 -->
+    
+    
+    </body>
+</html>
