@@ -1,0 +1,18 @@
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+var profile = {
+    "profiles" : [
+        {
+        "name": "JuanCruz",
+        "degree": "Highschool Degree",
+        "nationality": "Argentinian",
+        "area": "Software Engineering",
+        "education": "Universidad del Centro de la Provincia de Buenos Aires",
+        "actual_job": "HTML5 Bootcamp",
+        "prev_jobs": "[]",
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+/* 
+    Document   : styles
+    Created on : 22-mar-2012, 23:23:19
+    Author     : JuanCruz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.templateTitle{ font-size: x-large; text-decoration: underline}
+
