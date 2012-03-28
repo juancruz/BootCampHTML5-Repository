@@ -1,0 +1,30 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="js/jquery-1.7.1.js"></script>
+        <script src="js/underscore.js"></script>
+        <script src="js/backbone.js"></script>
+        <script type="text/javascript" src="js/movieModel.js"></script>
+        <script type="text/javascript" src="js/movieCollection.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <div id="movies">
+            <ul id="movieList"></ul>
+        </div>
+        
+        <script type="text/template" id="template">
+            <div class="DivTitle">Pelicula</div>
+            <div>Title: <%=title%></div>
+            <div>Year: <%=year%></div>
+            <div>Synopsis: <%=synopsis></div>
+        </script>
+            
+    </body>
+</html>
