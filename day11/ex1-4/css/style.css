@@ -1,0 +1,53 @@
+/* 
+    Document   : style
+    Created on : 28-mar-2012, 16:03:38
+    Author     : JuanCruz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+header, nav, article, section, footer, figure, aside {
+    display: block;
+}
+
+img{
+    height : 150px
+}
+
+@media screen and (min-width: 1200px) {
+    img{
+        height : 350px
+    }
+    p#text1 {
+	-moz-column-count: 4;
+	-moz-column-gap: 20px;
+        -webkit-column-count: 4;
+	-webkit-column-gap: 20px;
+	column-count: 4;
+	column-gap: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1199px){
+    img{
+        height : 150px
+    }
+    p#text1 {
+	-moz-column-count: 3;
+	-moz-column-gap: 20px;
+        -webkit-column-count: 3;
+	-webkit-column-gap: 20px;
+	column-count: 3;
+	column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    figure{
+        visibility : hidden
+    }
+}

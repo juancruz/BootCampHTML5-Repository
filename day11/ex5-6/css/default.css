@@ -1,0 +1,117 @@
+/* 
+    Document   : default
+    Created on : DATE
+    Author     : YOU <your@email>
+    Description:
+        CSS3 playground
+*/
+
+root { 
+    display: block;
+}
+
+header, nav, article, section, footer, figure, aside {
+    display: block;
+}
+
+body { 
+    width: 728px; 
+    margin: 6px auto;
+    font-family: "Arial",sans-serif; 
+    line-height: 1.6; 
+     
+   
+}
+.topHeaderImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.comment{
+    font-variant: normal;
+    font-size:0.7em;
+}
+footer{
+    font-variant: small-caps;
+    font-size:0.7em;
+    text-align:right;
+}
+.mainContent{
+    
+    font-family: Arial,Helvetica,sans-serif;
+    
+}
+article{
+    background-color: #BDB76B;
+    padding: 2% 2% 2% 2%;
+    -moz-box-shadow: 3px 3px 4px #444;
+    -webkit-box-shadow: 3px 3px 4px #444;
+    box-shadow: 3px 3px 4px #444;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444');
+}
+
+#menu a:hover {
+    color: #228B22;
+    font-size: larger;
+}
+#menu li {
+    border-top: 2px solid #8E8E38;
+    width: 6em;
+    padding: 5px;
+}
+#menu li:first-child{
+    border-left: 2px solid #8E8E38;
+}
+#menu li:last-child{
+    border-bottom: 2px solid #8E8E38;
+    border-right: 2px solid #8E8E38;
+}
+        
+@media (min-width: 800px) {
+    article{
+        float:left; width:45%; display:block;
+    }
+}
+.hiOne{
+    background-color: #458B00;
+}
+.hiTwo{
+    background-color: #76EE00;
+}
+
+.hiThree{
+    background-color: #FFFF00;
+}
+
+span[class^="hi"]{
+    background-color: violet;
+}
+
+span[class$="One"]{
+    background-color: #40E0D0;
+}
+
+span[class]{
+    background-color: #4A708B;
+}
+
+article header p a{
+    color:#473C8B;
+}
+article header p a~a{
+    color:#458B00;
+}
+    
+aside{
+    -moz-transform:rotate(3deg);
+    -webkit-transform:rotate(3deg);
+    -o-transform:rotate(3deg);
+    -ms-transform:rotate(3deg);
+}
+
+p:empty{
+    visibility: hidden;
+}
