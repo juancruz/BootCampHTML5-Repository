@@ -53,6 +53,9 @@ article{
     filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444');
 }
 
+#menu {
+    list-style: none;
+}
 #menu a:hover {
     color: #228B22;
     font-size: larger;
