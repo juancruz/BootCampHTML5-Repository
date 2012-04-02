@@ -1,8 +1,7 @@
 
 var MovieModule = (function(id, title){
     
-    return function (id,title){
-        //pvt attributes
+       //pvt attributes
         var mId = id;
         var mTitle = title;
         var mRating;
@@ -37,8 +36,7 @@ var MovieModule = (function(id, title){
                 pubsubz.publish('stopped',mTitle)
             }   
         }
-    }
-    
+        
 })
 
 

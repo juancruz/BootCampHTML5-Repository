@@ -30,6 +30,7 @@ taxiDriver.stop();
 //Singleton
 
 var gf = new DownloadableMovie("6","The Godfather");
+//alert(gf.getTitle());
 gf.download();
 
 // Mixin
@@ -59,7 +60,8 @@ gf.setCast(actors);
 console.log(gf.getCast()[0]);
 
 
-
+var mm = new MovieModule("8","The Fight Club");
+//alert(mm.getTitle());
 
 
 
