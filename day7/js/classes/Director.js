@@ -3,8 +3,8 @@ define(
 
     function(){
                 
-        function Director(){
-            var dName;
+        function Director(name){
+            var dName = name;
             var dQuotes = new Array();
                 
             
@@ -25,4 +25,4 @@ define(
         
         return (Director);
     }
-)
+);

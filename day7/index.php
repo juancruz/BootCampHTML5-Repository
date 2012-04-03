@@ -7,11 +7,22 @@
     <head>
         <meta charset="utf-8">
         <title><?php echo "$title: $subtitle"; ?></title>
-        <link href="css/default.css" rel="stylesheet" />
         
+        <script src="js/require.js"></script>
         <script src="js/jquery-1.7.1.js"></script><!-- jQuery -->
         <script src="js/jquery.mobile-1.0.1.js"></script><!-- include jquery toolkit here -->
-        <script data-main="js/script" src="js/require.js"></script>
+        
+        <script>require(["js/classes/Movie","js/classes/Director"], function(Movie,Director){
+     
+                    var rDogs = new Movie("1","Reservoir Dogs");
+                    var quentin = new Director("Quentin Tarantino");
+                    quentin.setQuotes(['We love making movies',"I guess I'll have to marry Elvis Presley to get even.", 'When people ask me if I went to film school I tell them, no, I went to films.'])
+                    rDogs.setDirector(quentin);
+
+                    alert(rDogs.getDirector().getName());
+                })
+        </script>
+               
                
         <!-- default javascript content -->
         <!-- include your default js file here -->

@@ -1,6 +1,6 @@
 
 define([
-    "./Director.class"
+    "./Director"
     ],
     
     function(Director){
@@ -35,12 +35,15 @@ define([
                     };
              this.setDirector = function(d){
                         return mDirector = d;
-                    }
+                    };
+             this.getDirector = function(){
+                        return mDirector;
+                    };
                 
             }
         return (Movie);
     }
-)
+);
 
 
 
