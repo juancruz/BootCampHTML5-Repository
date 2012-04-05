@@ -1,0 +1,47 @@
+/* 
+    Document   : css
+    Created on : 29-mar-2012, 22:44:36
+    Author     : JuanCruz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#items {
+    list-style:none;
+    width:45%; 
+    float:left; 
+    display:block;
+}
+
+#items li{
+    text-align: center;
+    width: 30%;
+    padding: 18px 20px 18px 0;
+    position: relative;
+    font-size: 24px;
+    border-top: 2px solid #cccccc;
+    border-left: 2px solid #cccccc;
+    border-right: 2px solid #cccccc;
+    
+}
+
+#dropzone{
+    
+    border: 3px dashed #ccc;
+    padding: 10px;
+    background: #fff;
+    min-height: 200px; 
+}   
+
+#geo-map{
+    height: 280px; 
+    width: 640px;
+}
+#geo-log{
+    background-color: red;
+    color: white;
+}
